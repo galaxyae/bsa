@@ -1,0 +1,11 @@
+.article-list .article {
+    padding-left: 24px;
+}
+
+.border-top {
+    margin-bottom: 20px;
+    border-top: 1px solid #000 !important;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}

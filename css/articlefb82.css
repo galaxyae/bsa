@@ -1,0 +1,91 @@
+.tag-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tag-dot.green {
+    background-color: #51AD32;
+}
+
+.page-tag {
+    font-size: 18px;
+    color: #AFAAA9;
+}
+
+.page-tag a {
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.authorThumb {
+    margin-right: 20px;
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.authorCopy {
+    width: 50%;
+    float: left;
+    line-height: 18px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+.authorTitle {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 5px;
+    color: inherit;
+}
+
+.authorDetails {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline-block;
+    width: 100%;
+    color: inherit;
+}
+
+.article-photo {
+    position: relative;
+}
+
+.article-photo .lines {
+    background-image: url('../img/article/lines.html');
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.article-tag {
+    float: right;
+}
+
+.highlights-carousel .article-tag {
+    float: left;
+    width: 100%;
+}
+
+blockquote {
+    color: #ACD1A7;
+    font-size: 30px;
+    margin: 30px 0;
+    line-height: 36px;
+}
